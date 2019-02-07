@@ -12,11 +12,10 @@ This checklist is used whenever a project is going live at https://steadfastcoll
 - [ ] Search sources for `http://`. Replace by `https://`
 - [ ] Lint (s)css sources
 - [ ] Webfonts: is the live domain configured in services like Typekit, Fonts.com etc.?
-- [ ] Is the browserlist properly configured for autoprefixer and babel-preset-env?
 - [ ] When using PurgeCSS: check if layout is preserved.
 
 ### Scripts
-- [ ] Is `yarn.lock` present?
+- [ ] Is `yarn.lock \ package-lock.json` present?
 - [ ] Check JS lint errors. Remove all `console.log` lines in scripts
 - [ ] Check for console errors
 
@@ -55,15 +54,11 @@ _Repeat this section for all languages_
 - [ ] Check structured data for news, events, products,... https://search.google.com/structured-data/testing-tool/
 
 ## 4. Back end checklist
-- [ ] Open up `/blender`
-- [ ] Remove unused modules from main menu 
-- [ ] Configure Analytics dashboard
 - [ ] Create a new admin and try to log in
 - [ ] Try the password reset flow for existing user
 - [ ] Try saving article / news / ...
 - [ ] Verify all e-mail recipients are correct
 - [ ] Scan database for urls to development domain
-- [ ] Check client's logo in header
 
 ## 5. Server, DNS & Services
 - [ ] Add redirects from old to new pages if necessary.
