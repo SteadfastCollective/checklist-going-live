@@ -94,7 +94,4 @@ _Repeat this section for all languages_
 - [ ] Is the server being monitored by our server-monitor?
 
 ### Github
-- [ ] Remove `develop` branch or other stale branches 
-
-## About Spatie
-Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+- [ ] Remove `develop` branch or other stale branches
